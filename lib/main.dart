@@ -114,7 +114,9 @@ class MyHome extends StatelessWidget {
             },
             icon: Icon(Icons.add),
           ),
+
         ],
+        backgroundColor: Colors.blue,
       ),
       body: Provider.of<AppModel>(context,listen: true).myRoutine.habits.isNotEmpty?
         Column(
